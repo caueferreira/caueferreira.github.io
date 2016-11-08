@@ -1,0 +1,42 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+#disqus: caueferreira
+#google_analytics: caueferreira
+title: Cauê Ferreira
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Cauê Ferreira
+
+description: Stylish Jekyll Theme
+author:
+  name: Cauê Ferreira
+  email: thecaueferreira@gmail.com
+  github: caueferreira
+  twitter: caueferreira
+  #pinterest: asd123
+  linkedin: caueferreira
+  bio: Your stylish, minimalist theme!
+  email_md5: 362cff6c1f74078c86dfcd81e2103e40
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
+
+exclude_from_localizations: ["javascript", "images", "css"]
