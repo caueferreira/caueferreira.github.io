@@ -3,7 +3,7 @@ layout: post
 title:  "Hello there!"
 author: Cauê Ferreira
 date:   2019-04-13 01:14:05 -0300
-background: '/images/posts/2019-04-11-welcome-to-jekyll/background.jpg'
+background: '/images/posts/2019-04-11-hello-world/background.jpg'
 categories: miscellaneous
 ---
 That's just a classic hello world with a pinch of Star Wars.
@@ -18,4 +18,4 @@ Stay awesome :)
 
 [medium-url]: https://medium.com/@caueferreira
 [github-url]: https://github.com/caueferreira
-[about-url]: https://caueferreira.com/about/
+[about-url]: http://caueferreira.com/about/
